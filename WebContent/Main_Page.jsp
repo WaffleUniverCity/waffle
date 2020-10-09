@@ -126,7 +126,7 @@
 	 					<table id="tbl" style="width : 100%;">
 	 						<thead>
 	 							<tr>
-		 							<td>일</td>
+		 							<td>욜</td>
 		 							<td>월</td>
 		 							<td>화</td>
 		 							<td>수</td>
