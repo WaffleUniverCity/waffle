@@ -25,7 +25,9 @@
     </plugins>
   </build>
   
-
+	<dependencies>
+	
+	</dependencies>  
   
   
   
