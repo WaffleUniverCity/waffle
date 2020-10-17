@@ -1,5 +1,8 @@
 package com.waffle.service.impl;
 
-public class MainServiceImpl {
+import com.waffle.service.MainService;
 
+public class MainServiceImpl implements MainService
+{
+	
 }
