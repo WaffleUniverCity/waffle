@@ -17,12 +17,16 @@
        ">
 
 	<annotation-driven />
-	<resources mapping="/resources/**" location="/resources/" /> 
 	
 	<beans:bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
 		<beans:property name="prefix" value="/WEB-INF/view/" />
 		<beans:property name="suffix" value=".jsp"/>
 	</beans:bean>
+	
+	<context:annotation-config/>
+	<beans:bean id="data" class="com.waffle.domain.MedicalSubjectVO"/>
+
+
 	
 	<context:component-scan base-package="com.waffle"/>
 </beans:beans>
